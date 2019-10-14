@@ -1,0 +1,8 @@
+umur			:age		input
+jk 			:sex		boolean
+tekanan_darah		:trestbps	input
+gula_darah		:fbs		boolean
+max heart rate		:thalac		input
+exercide induce angina	:exang		boolean
+thal					3 choice
+

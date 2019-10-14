@@ -8,6 +8,103 @@
 
 <ion-content>
   <div class="ion-padding">
+
+    <ion-list>
+
+      <ion-list-header>
+        <ion-label>Umur :</ion-label>
+      </ion-list-header>
+      <ion-item>
+          <ion-input type="text" name="age"></ion-input>
+      </ion-item>
+
+      <ion-radio-group>
+        <ion-list-header>
+          <ion-label>Jenis Kelamin</ion-label>
+        </ion-list-header>
+    
+        <ion-item>
+          <ion-label>laki-laki</ion-label>
+          <ion-radio slot="start" value="1" name="sex" checked></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>perempuan</ion-label>
+          <ion-radio slot="start" value="0" name="sex"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+
+
+      <ion-list-header>
+          <ion-label>Tekanan Darah :</ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-input type="text" name="trestbps"></ion-input>
+      </ion-item>
+
+      
+      <ion-radio-group>
+        <ion-list-header>
+          <ion-label>Gula Darah</ion-label>
+        </ion-list-header>
+    
+        <ion-item>
+          <ion-label>ya</ion-label>
+          <ion-radio slot="start" value="1" name="fbs" checked></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>tidak</ion-label>
+          <ion-radio slot="start" value="0" name="fbs"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+      
+      <ion-list-header>
+          <ion-label>Detak Jantung Maksimal :</ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-input type="text" name="thalac"></ion-input>
+      </ion-item>
+
+      <ion-radio-group>
+        <ion-list-header>
+          <ion-label>Dada sakit saat olahraga :</ion-label>
+        </ion-list-header>
+    
+        <ion-item>
+          <ion-label>ya</ion-label>
+          <ion-radio slot="start" value="1" name="exang" checked></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>tidak</ion-label>
+          <ion-radio slot="start" value="0" name="exang"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+
+      <ion-radio-group>
+        <ion-list-header>
+          <ion-label>Thal :</ion-label>
+        </ion-list-header>
+    
+        <ion-item>
+          <ion-label>3</ion-label>
+          <ion-radio slot="start" value="3" name="thal" checked></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>6</ion-label>
+          <ion-radio slot="start" value="6" name="thal"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>7</ion-label>
+          <ion-radio slot="start" value="7" name="thal"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+
+
     The world is your oyster.
     <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
   </div>
